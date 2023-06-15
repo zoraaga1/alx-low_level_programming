@@ -1,2 +1,2 @@
 #!/bin/bash
-ld cisfun.o $CFILE
+ld cisfun $CFILE
