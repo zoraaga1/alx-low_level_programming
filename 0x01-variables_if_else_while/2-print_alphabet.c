@@ -11,5 +11,6 @@ int main(void)
 	{
 		putchar(letter);
 	}
+	write(\n);
 	return (0);
 }
