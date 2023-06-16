@@ -1,8 +1,9 @@
 #include <stdio.h>
-/*
- *the Hello code
- *main -the code
- */
+/**
+* main - print a string
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 char Hello[] = "\"Programming is like building a multilingual puzzle";
