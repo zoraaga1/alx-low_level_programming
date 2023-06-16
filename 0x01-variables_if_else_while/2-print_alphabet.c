@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
  * main - print alphabets
  *
@@ -12,6 +11,6 @@ int main(void)
 	{
 		putchar(letter);
 	}
-	write(\n);
+	putchar('\n');
 	return (0);
 }
