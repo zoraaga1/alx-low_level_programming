@@ -1,13 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 /**
- * main - print the correct statement
+ * main - print int
  *
  * return: Always = 0 (success)
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -21,9 +19,9 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-                printf("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	}
-	else 	
+	else
 	{
 		printf("%d is zero\n", n);
 	}
