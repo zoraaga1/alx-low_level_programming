@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
 * main - print a string
 *
-* Return: Always 0 (Success)
+* Return: Always 1 (Success)
 */
 int main(void)
 {
