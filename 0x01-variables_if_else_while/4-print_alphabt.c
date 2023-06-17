@@ -11,10 +11,14 @@ int main(void)
 	char e;
 
 	for (letter = 'a'; letter <= 'z'; ++letter)
-	if (letter = q || letter = e)
+	if (letter = e)
 	{
-		break;
+		continue;
 	}
+	if (letter = q)
+        {
+		continue;
+        }
 	{
 		putchar(letter);
 	}
