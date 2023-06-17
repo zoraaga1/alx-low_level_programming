@@ -11,6 +11,7 @@ int main(void)
 	char e;
 
 	for (letter = 'a'; letter <= 'z'; ++letter)
+	{
 	if (letter == e)
 	{
 		continue;
@@ -21,6 +22,7 @@ int main(void)
         }
 	{
 		putchar(letter);
+	}
 	}
 	
 	putchar('\n');
