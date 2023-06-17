@@ -17,14 +17,13 @@ int main(void)
 		continue;
 	}
 	if (letter == 'q')
-        {
+	{
 		continue;
-        }
+	}
 	{
 		putchar(letter);
 	}
 	}
-	
 	putchar('\n');
 	return (0);
 }
