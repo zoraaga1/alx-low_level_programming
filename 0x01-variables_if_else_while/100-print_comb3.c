@@ -16,7 +16,7 @@ int main(void) {
            if (b < 2){
            continue;
            }
-       }if
+       }
        
        if (a == 3){
            if (b < 4){
