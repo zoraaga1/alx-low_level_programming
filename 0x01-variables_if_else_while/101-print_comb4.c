@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - Prints combinations of three digits without repeating same digit in a combination.
+ * main - Prints combinations of three digits without repeating same digit
+ *
  *
  * Return: Always 0.
  */
