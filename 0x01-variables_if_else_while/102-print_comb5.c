@@ -2,12 +2,11 @@
 /**
  * main - Print all combinations of two different digits,
  * 	separate two numbers by space,
- * 	separate four numbers by comma and space,
- *        
- *
+ *	separate four numbers by comma and space,
  * Return: Always 0 (Success)
  */
-int main(void) {
+int main(void)
+{
 	int a;
 	int b;
 
