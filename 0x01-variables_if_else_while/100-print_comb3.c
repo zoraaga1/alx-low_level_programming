@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int a; 
+	int a;
 	int b;
 
 	for (a = 0; a < 9; a++)
@@ -29,7 +29,7 @@ int main(void)
 				if (b < 4)
 				{
 					continue;
-				}   
+				}
 			}
 			if (a == 4)
 			{
@@ -38,7 +38,6 @@ int main(void)
 					continue;
 				}
 			}
-       
 			if (a == 5)
 			{
 				if (b < 6)
