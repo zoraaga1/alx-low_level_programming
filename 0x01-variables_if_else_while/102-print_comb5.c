@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Print all combinations of two different digits,
- * 	separate two numbers by space,
+ *	separate two numbers by space,
  *	separate four numbers by comma and space,
  * Return: Always 0 (Success)
  */
