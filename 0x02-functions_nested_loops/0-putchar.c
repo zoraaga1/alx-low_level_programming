@@ -7,6 +7,6 @@
  */
 int main(void)
 }
-	putchar("\_putchar");
+	putchar("%d\n, main);
 	return (0);
 }
