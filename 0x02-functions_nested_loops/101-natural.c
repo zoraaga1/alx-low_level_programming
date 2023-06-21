@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main()
+int main(main)
 {
 int i, sum = 0;
 
