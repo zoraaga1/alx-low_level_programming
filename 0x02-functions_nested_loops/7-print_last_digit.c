@@ -8,7 +8,6 @@
 
 int print_last_digit(int m)
 {
-	m = _abs(m);
 	int lastdigit;
 
 	lastdigit = m % 10;
