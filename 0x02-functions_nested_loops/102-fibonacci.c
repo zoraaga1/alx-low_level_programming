@@ -2,8 +2,7 @@
 
 /**
  * main - Prints the first 10 Fibonacci numbers
- *
- * Return :0 (Success)
+ *Return : 0(Success)
  */
 
 int main(void)
