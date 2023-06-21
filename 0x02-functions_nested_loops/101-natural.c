@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Compute and print the sum of f 3 or 5 below 1024 (excluded)
@@ -12,7 +13,7 @@ int main()
 	int sum;
 	int i = 1;
 	
-	while (sum != 1024){
+	while (sum < 1016){
 		int j = a * i;
 		int h = b * i;
 		sum = j + h;
