@@ -8,17 +8,15 @@
 
 int main()
 {
-	int a = 3;
-	int b = 5;
-	int sum;
-	int i = 1;
-	
-	while (sum < 1016){
-		int j = a * i;
-		int h = b * i;
-		sum = j + h;
-		printf("%d\n" ,sum);
-		i++;
+int i, sum = 0;
+
+	for (i = 0; i < 1024; i++)
+	{
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
 	}
-	return(0);
+
+	printf("%d\n", sum);
+
+	return (0);
 }
