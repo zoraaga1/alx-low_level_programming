@@ -3,12 +3,12 @@
 /**
  * main - Prints the first 10 Fibonacci numbers
  *
- * Return : 0 (Success)
+ * Return :0 (Success)
  */
 
-int main()
+int main(void)
 {
-    
+
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
 
