@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_times_table - Print the 9 times n table, starting with 0
- * 		don't print if the number is negative or greater than 15
+ *			don't print if the number is negative or greater than 15
  * @n : int number to start the table from
  * Return: 0(Success)
  */
@@ -17,7 +17,7 @@ void print_times_table(int n)
 	return;
 	while (a <= n)
 	{
-		for (b= 0; b <= n; b++)
+		for (b = 0; b <= n; b++)
 		{
 			c = a * b;
 			if (c > 99)
