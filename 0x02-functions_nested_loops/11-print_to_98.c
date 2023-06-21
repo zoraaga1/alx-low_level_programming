@@ -12,10 +12,10 @@ void print_to_98(int n)
 	{
 		while (n >= 98)
 		{
-			printf("%d", n);
+			_putchar("%d", n);
 			if (n != 98)
 			{
-				printf(", ");
+				_putchar(", ");
 			}
 			n--;
 		}
@@ -24,13 +24,13 @@ void print_to_98(int n)
 	{
 		while (n <= 98)
 		{
-			printf("%d", n);
+			_putchar("%d", n);
 			if (n != 98)
 			{
-				printf(", ");
+				_putchar(", ");
 			}
 			n++;
 		}
 	}
-	printf("\n");
+	_putchar("\n");
 }
