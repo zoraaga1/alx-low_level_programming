@@ -7,22 +7,23 @@
 
 int main()
 {
-    int n = 10;
-    int a = 0, b = 1;
     
+	int count;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 
-    printf("%d, %d, ",a,b);
-    
-    int nextnumbers;
-    
-    
-    for(int i = 2; i < 50; i++){
-        nextnumbers = a + b;
-        a = b;
-        b = nextnumbers;
-        
-        printf("%d, ",nextnumbers);
-    }
+	for (count = 0; count < 50; count++)
+	{
+		sum = fib1 + fib2;
+		printf("%lu", sum);
 
-    return 0;
-}
+		fib1 = fib2;
+		fib2 = sum;
+
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
+	}
+
+	return (0);
+
