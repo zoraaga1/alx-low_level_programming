@@ -1,12 +1,8 @@
 #include <stdio.h>
-#define LARGEST 10000000000
 /**
  * main - Prints the first 98 Fibonacci numbers started with 1 and 2
  * Return: Always 0
  */
-
-int main(void)
-{
 
 int main(void)
 {
