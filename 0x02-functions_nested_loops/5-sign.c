@@ -7,8 +7,8 @@
  *@n : int type number
  *
  * Return: 1 if the number is greater than 0,
- *	-1 if the number is less than 0, 
- * 	0 if the number is zero
+ *	-1 if the number is less than 0,
+ *	0 if the number is zero
  */
 
 int print_sign(int n)
