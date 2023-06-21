@@ -25,34 +25,34 @@ void print_times_table(int n)
 			{
 		        if (c > 99)
 		        {
-                putchar(c / 100 + '0');
-                putchar(c %100 / 10 + '0');
-				putchar(c % 10 + '0');
+                _putchar(c / 100 + '0');
+                _putchar(c %100 / 10 + '0');
+				_putchar(c % 10 + '0');
                 }
 				else
 				{
-                putchar(c / 10 + '0');
-				putchar(c % 10 + '0');
+                _putchar(c / 10 + '0');
+				_putchar(c % 10 + '0');
 				}
 		    }
 			else if (b != 0)
 			{
-				putchar(' ');
-				putchar(c + '0');
+				_putchar(' ');
+				_putchar(c + '0');
 			}
 			else
 			{
-				putchar(c + '0');
+				_putchar(c + '0');
 			}
 
 			if (b != 9)
 			{
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 			b++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		a++;
 	}
 }
