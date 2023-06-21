@@ -6,9 +6,7 @@
  * "0" for zero number
  *@n : int type number
  *
- * Return: 1 if the number is greater than 0
- * Return: -1 if the number is less than 0
- * return: 0 if c in not in lowercase
+ * Return: 1 if the number is greater than 0, -1 if the number is less than 0, 0 if the number is zero
  */
 
 int print_sign(int n)
@@ -18,7 +16,7 @@ int print_sign(int n)
 		_putchar('+');
 		return (1);
 	}
-	else if ( n < 0)
+	else if (n < 0)
 	{
 		_putchar('-');
 		return (-1);
