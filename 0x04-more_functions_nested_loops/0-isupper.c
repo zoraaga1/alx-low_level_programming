@@ -7,7 +7,6 @@
  * Return: 1 (Success)
  *		0 (if c is not uppercase)
  */
- 
 int _isupper(int c)
 {
 	if (c > 96 && c < 123)
