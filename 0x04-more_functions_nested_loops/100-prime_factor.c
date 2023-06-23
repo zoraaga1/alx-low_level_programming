@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * print_triangle - Prints triangle with hashkey
- *@size : size of triangle
- * 
+ *main - Prints prime factors
+ *Return : 0 (Success)
  */
 int main(void)
 {
