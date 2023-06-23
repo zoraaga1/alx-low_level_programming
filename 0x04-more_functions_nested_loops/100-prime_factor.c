@@ -5,7 +5,7 @@
  *@size : size of triangle
  * 
  */
-void main(int n)
+void primeFactors(int n)
 {
 	while (n%2 == 0)
 	{
@@ -29,4 +29,3 @@ int main()
 	primeFactors(n);
 	return 0;
 }
-
