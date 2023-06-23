@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 /**
- *main - Prints prime factors
- *Return : 0 (Success)
+ * main - Prints prime factors
+ * Return : Always 0 (Success)
  */
 int main(void)
 {
