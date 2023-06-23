@@ -4,6 +4,7 @@
  *		for multiples of three print Fizz,
  *		for the multiples of five print Buzz,
  *		For numbers which are multiples of both three and five print FizzBuzz.
+ * Return : 0
  */
 int main(void)
 {
@@ -21,4 +22,5 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("\n");
+	return (0);
 }
