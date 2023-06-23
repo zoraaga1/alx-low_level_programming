@@ -5,27 +5,25 @@
  *@size : size of triangle
  * 
  */
-void primeFactors(int n)
+int main(void)
 {
-	while (n%2 == 0)
+	long int i, n, d;
+
+	n = 612852475143;
+
+	for (i = 1; i <= n; i++)
 	{
-		printf("%d ", 2);
-		n = n/2;
-	}
-	for (int i = 3; i <= sqrt(n); i = i+2)
-	{
-		while (n%i == 0)
+		if (n % i == 0)
 		{
-			printf("%d ", i);
-			n = n/i;
+			if (n == i)
+			{
+				printf("%ld\n", i);
+				break;
+			}
+			d = n / i;
+			n = d;
+			i = 1;
 		}
 	}
-	if (n > 2)
-		printf ("%d ", n);
-}
-int main()
-{
-	int n = 315;
-	primeFactors(n);
-	return 0;
+	return (0);
 }
