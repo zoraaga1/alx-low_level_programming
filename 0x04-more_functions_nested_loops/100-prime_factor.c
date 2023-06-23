@@ -2,7 +2,8 @@
 #include <math.h>
 /**
  * main - Prints prime factors
- * Return : Always 0 (Success)
+ *
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
