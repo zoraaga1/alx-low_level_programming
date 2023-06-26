@@ -4,7 +4,7 @@
  *
  * @s : chaine of character
  *
- * Return : 0 or 1
+ * Return : i
  */
 int _strlen(char *s)
 {
