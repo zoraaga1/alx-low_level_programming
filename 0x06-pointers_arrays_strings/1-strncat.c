@@ -4,7 +4,7 @@
  * @dest: string that will concatenate to another string
  * @src: string to be concatenated
  * @n: limit of bytes used from src string
- * Return: Always 0.
+ * Return: dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
