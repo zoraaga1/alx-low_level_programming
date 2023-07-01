@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 	iS = 0;
 	iD = 0;
 
-	while (dest[iD] != \0')
+	while (dest[iD] != '\0')
 		iD++;
 
 	while (src[iS] != '\0')
