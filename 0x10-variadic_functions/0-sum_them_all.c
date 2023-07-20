@@ -2,7 +2,7 @@
 /**
  * sum_them_all - sum of variadic variable
  * @n: arg int
- * return: sum
+ * Return: sum
  * 0 if n = 0
  */
 
