@@ -2,7 +2,7 @@
 
 /**
  *print_list - prints all the elements
-				of a singly linked lists
+ *				of a singly linked lists
  *@h : represents a pointer to the head of a singly linked list
  *
  *Return: the number of nodes
