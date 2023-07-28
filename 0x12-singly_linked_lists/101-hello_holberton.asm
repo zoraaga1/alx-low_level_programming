@@ -1,31 +1,27 @@
 section .data
-    hello_msg db "Hello, Holberton", 10   ; Newline added at the end
+	hello_msg db "Hello, Holberton", 10   ; Newline added at the end
+	fmt db "%s", 0   ; Format string for printf
 
 section .text
 	global main
+	extern printf
 
 main:
-	; File descriptor for standard output (1)
-	mov rdi, 1
+	; Clear the floating-point status word to avoid printf issues on some systems
+	finit
 
-	; Pointer to the hello_msg string
+	; Pass the format string to printf
+	mov rdi, fmt
+
+	; Pass the address of hello_msg string to printf
 	mov rsi, hello_msg
 
-	; Length of the hello_msg string
-	mov rdx, hello_msg_len
-
-	; System call number for write (1)
-	mov rax, 1
-
-	; Invoke the write system call
-	syscall
+	; Call printf to print the message
+	xor rax, rax   ; Clear RAX (return value for printf)
+	call printf
 
 	; Exit the program
 	xor rdi, rdi   ; Exit code 0
 	mov rax, 60    ; System call number for exit (60)
 	syscall
-
-section .bss
-	; Reserve space for a 64-bit variable to store hello_msg length
-	hello_msg_len resq 1
 
