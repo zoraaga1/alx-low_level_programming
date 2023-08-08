@@ -25,14 +25,12 @@ int main(int argc, char *argv[])
 	int fd_from, fd_to;
         char buffer[BUFFER_SIZE];
         ssize_t bytes_read, bytes_written;
-        const char *file_from;
-        const char *file_to;
+        const char *file_from = argv[1];
+        const char *file_to = argv[2];
 
     if (argc != 3) {
         print_usage_and_exit();
     }
- 	*file_from = argv[1];
-	*file_to = argv[2];
 
     /* Open source file for reading */
     fd_from = open(file_from, O_RDONLY);
