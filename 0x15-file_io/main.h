@@ -8,6 +8,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <string.h>
+#include <elf.h>
 
 /* Prototypes of used functions */
 int _putchar(char c);
