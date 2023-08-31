@@ -9,7 +9,7 @@ void print_binary(unsigned long int n)
 	signed long int _size;
 	char _c;
 	int _flag;
-	
+
 	_size = sizeof(n) * 8 - 1;
 	if (n == 0)
 	{
