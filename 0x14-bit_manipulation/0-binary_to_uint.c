@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *  * binary_to_uint - convert binary to decimal
- *   * @b: pointer to binary value
- *    *
- *     * Return: decimal number
- *      *		in error or null return 0
- *       */
+ * binary_to_uint - convert binary to decimal
+ * @b: pointer to binary value
+ *
+ * Return: decimal number
+ *		in error or null return 0
+ */
 
 unsigned int binary_to_uint(const char *b)
 {
