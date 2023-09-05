@@ -18,7 +18,6 @@ int append_text_to_file(const char *filename, char *text_content);
 void close_file(int fd, const char *filename, const char *operation);
 void copy_file(const char *source, const char *destination);
 void handle_write_error(const char *filename);
-void handle_read_error(const char *filename);
-	
+void handle_read_error(const char *filename);	
 
 #endif
