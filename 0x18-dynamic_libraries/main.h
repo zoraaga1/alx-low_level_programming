@@ -1,6 +1,9 @@
 #ifndef main_h
 #define main_h
 
+#include <stdio.h>
+#include <stdlib.h>
+
 /* Prototypes of used functions */
 int _putchar(char c);
 int _islower(int c);
