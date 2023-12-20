@@ -6,7 +6,7 @@ CFLAGS = -Wall -Werror -Wextra -pedantic
 
 .PHONY: all clean fclean oclean re
 
-all: $(OBJ)
+all: m.h $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 
@@ -21,6 +21,3 @@ fclean: clean oclean
 re: oclean all
 
 .PHONY: m.h
-
-m.h:
-	@test -e m.h || { echo "Error: Header file m.h is missing."; false; }
