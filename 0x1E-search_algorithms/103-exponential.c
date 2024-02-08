@@ -45,12 +45,12 @@ int exponential_search(int *array, size_t size, int value)
  */
 int bin_search(int *array, size_t low, size_t high, int value)
 {
-	size_t mid;
+	size_t mid, i;
 
 	while (low <= high)
 	{
 		printf("Searching in array: ");
-		for (size_t i = low; i <= high; i++)
+		for (i = low; i <= high; i++)
 		{
 			printf("%d", array[i]);
 			if (i < high)
