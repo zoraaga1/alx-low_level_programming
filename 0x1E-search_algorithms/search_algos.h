@@ -16,9 +16,9 @@
  */
 typedef struct listint_s
 {
-    int n;
-    size_t index;
-    struct listint_s *next;
+	int n;
+	size_t index;
+	struct listint_s *next;
 } listint_t;
 
 /*Protypes of used functions*/
@@ -33,4 +33,4 @@ int advanced_binary_recursive(int *array, size_t low, size_t high, int value);
 int advanced_binary(int *array, size_t size, int value);
 listint_t *jump_list(listint_t *list, size_t size, int value);
 
-#endif
+#endif /* SEARCH_ALGOS_H */
